@@ -31,3 +31,10 @@ void loop() {
 
   // Convert time → distance (cm)
   distance = duration * 0.0343 / 2;
+
+  // Calculate water level
+  int waterLevel = tankHeight - distance;
+  if (waterLevel < 0) waterLevel = 0;
+  if (waterLevel > tankHeight) waterLevel = tankHeight;
+
+  int percent = (waterLevel * 100) / tankHeight;
