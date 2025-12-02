@@ -58,3 +58,34 @@ Buzzer              	11
 🖼 Circuit Diagram
 
 <img width="1280" height="890" alt="image" src="https://github.com/user-attachments/assets/44e36b16-ea75-46de-ad50-6ce7f1d3de23" />
+
+
+💻 Code Explanation
+
+Ultrasonic Sensor
+
+Measures the distance from the sensor to water surface.
+
+Formula: distance = (duration * 0.0343) / 2
+
+Potentiometer
+
+Adjusts LCD contrast for better visibility.
+
+Connected to V0 pin of LCD.
+
+Water Level Calculation
+
+waterLevel = tankHeight - distance
+
+Converts distance into percentage of tank capacity.
+
+LCD Display
+
+Row 1: Distance from sensor to water.
+
+Row 2: Water level percentage.
+
+Buzzer Alert
+
+Turns ON when water level reaches 90% or more.
