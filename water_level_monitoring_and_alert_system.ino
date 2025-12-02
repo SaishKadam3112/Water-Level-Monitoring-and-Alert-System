@@ -5,3 +5,5 @@ LiquidCrystal lcd(7, 6, 5, 4, 3, 2);
 #define echoPin 10
 #define buzzer 11
 int tankHeight = 30;  // Tank height in cm
+void setup() {
+  lcd.begin(16, 2);
