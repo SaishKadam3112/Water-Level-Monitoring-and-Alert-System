@@ -22,3 +22,5 @@ void loop() {
   // Create trigger pulse
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
