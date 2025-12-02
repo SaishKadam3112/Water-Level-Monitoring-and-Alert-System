@@ -10,3 +10,4 @@ void setup() {
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   pinMode(buzzer, OUTPUT);
+  lcd.print("Water Level Sys"); 
