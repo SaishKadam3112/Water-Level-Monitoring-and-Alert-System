@@ -15,3 +15,6 @@ void setup()
   delay(1500);
   lcd.clear();
 }
+void loop() {
+  long duration;
+  int distance;
