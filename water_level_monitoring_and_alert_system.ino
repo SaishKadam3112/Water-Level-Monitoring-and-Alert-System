@@ -44,3 +44,8 @@ void loop() {
   lcd.print("Dist:");
   lcd.print(distance);
   lcd.print("cm   ");
+
+  lcd.setCursor(0, 1);
+  lcd.print("Water:");
+  lcd.print(percent);
+  lcd.print("%    ");
