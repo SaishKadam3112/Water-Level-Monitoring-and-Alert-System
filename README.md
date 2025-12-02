@@ -24,3 +24,32 @@ Breadboard
 
 Power Supply (USB or 5V)
 
+🔌 Pin Connections
+
+Component	Arduino Pin / Connection
+
+LCD RS	7
+
+LCD EN	6
+
+LCD D4	5
+
+LCD D5	4
+
+LCD D6	3
+
+LCD D7	2
+
+LCD VSS (GND)	GND
+
+LCD VDD (VCC)	5V
+
+LCD V0 (Contrast)	Middle pin of potentiometer
+
+Potentiometer ends	5V & GND
+
+Ultrasonic Trig	9
+
+Ultrasonic Echo	10
+
+Buzzer	11
