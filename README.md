@@ -62,30 +62,21 @@ Buzzer              	11
 
 💻 Code Explanation
 
-Ultrasonic Sensor
-
+Ultrasonic Sensor :-
 Measures the distance from the sensor to water surface.
-
 Formula: distance = (duration * 0.0343) / 2
 
-Potentiometer
-
+Potentiometer :-
 Adjusts LCD contrast for better visibility.
-
 Connected to V0 pin of LCD.
 
-Water Level Calculation
-
+Water Level Calculation :-
 waterLevel = tankHeight - distance
-
 Converts distance into percentage of tank capacity.
 
-LCD Display
-
+LCD Display :-
 Row 1: Distance from sensor to water.
-
 Row 2: Water level percentage.
 
-Buzzer Alert
-
+Buzzer Alert :-
 Turns ON when water level reaches 90% or more.
