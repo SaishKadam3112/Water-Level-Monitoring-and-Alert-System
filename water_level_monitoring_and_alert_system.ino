@@ -28,3 +28,6 @@ void loop() {
 
   // Read echo time
   duration = pulseIn(echoPin, HIGH);
+
+  // Convert time → distance (cm)
+  distance = duration * 0.0343 / 2;
