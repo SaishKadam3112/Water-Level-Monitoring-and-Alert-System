@@ -5,9 +5,13 @@ LiquidCrystal lcd(7, 6, 5, 4, 3, 2);
 #define echoPin 10
 #define buzzer 11
 int tankHeight = 30;  // Tank height in cm
-void setup() {
+void setup()
+{
   lcd.begin(16, 2);
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   pinMode(buzzer, OUTPUT);
   lcd.print("Water Level Sys"); 
+  delay(1500);
+  lcd.clear();
+}
