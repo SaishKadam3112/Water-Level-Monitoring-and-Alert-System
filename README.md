@@ -80,3 +80,15 @@ Row 2: Water level percentage.
 
 Buzzer Alert :-
 Turns ON when water level reaches 90% or more.
+
+⚡ Features
+
+Real-time water level monitoring
+
+Adjustable LCD contrast using potentiometer
+
+Percentage display of water level
+
+Audible alert for high water level
+
+Simple and easy-to-understand design
