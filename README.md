@@ -1,2 +1,5 @@
-# Water-Level-Monitoring-and-Alert-System
-This Arduino project uses an ultrasonic sensor to measure water level in a tank. The LCD displays the current level, and a buzzer gives alerts when the tank is full or low. It helps prevent overflow, saves water, and makes monitoring easy and automatic.
+Water Level Monitoring and Alert System
+📌 Project Overview
+
+This project is an Arduino-based Water Level Monitoring and Alert System. It continuously monitors the water level in a tank using an ultrasonic sensor, displays the water level on a 16×2 LCD, and activates a buzzer alert when the tank is almost full.
+A potentiometer is used to adjust the LCD contrast, ensuring the display is clear and readable.
