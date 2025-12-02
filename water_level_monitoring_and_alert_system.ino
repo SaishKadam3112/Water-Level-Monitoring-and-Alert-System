@@ -24,3 +24,4 @@ void loop() {
   delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
