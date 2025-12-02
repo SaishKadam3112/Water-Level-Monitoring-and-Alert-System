@@ -15,7 +15,8 @@ void setup()
   delay(1500);
   lcd.clear();
 }
-void loop() {
+void loop()
+{
   long duration;
   int distance;
 
@@ -49,3 +50,13 @@ void loop() {
   lcd.print("Water:");
   lcd.print(percent);
   lcd.print("%    ");
+
+  // Buzzer alert when tank is almost full (90%)
+  if (percent >= 90) {
+    digitalWrite(buzzer, HIGH);
+  } else {
+    digitalWrite(buzzer, LOW);
+  }
+
+  delay(500);
+}
