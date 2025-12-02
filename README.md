@@ -81,6 +81,7 @@ Row 2: Water level percentage.
 Buzzer Alert :-
 Turns ON when water level reaches 90% or more.
 
+
 ⚡ Features
 
 Real-time water level monitoring
@@ -92,3 +93,16 @@ Percentage display of water level
 Audible alert for high water level
 
 Simple and easy-to-understand design
+
+
+🔧 How to Use
+
+Connect all components as per the pin diagram.
+
+Adjust the potentiometer to set the LCD contrast.
+
+Upload the Arduino code using Arduino IDE.
+
+Power the system.
+
+Monitor water level on LCD; buzzer alerts at high levels.
