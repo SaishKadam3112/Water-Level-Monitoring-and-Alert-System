@@ -54,3 +54,7 @@ Ultrasonic Trig     	9
 Ultrasonic Echo	      10
 
 Buzzer              	11
+
+🖼 Circuit Diagram
+
+<img width="1280" height="890" alt="image" src="https://github.com/user-attachments/assets/44e36b16-ea75-46de-ad50-6ce7f1d3de23" />
