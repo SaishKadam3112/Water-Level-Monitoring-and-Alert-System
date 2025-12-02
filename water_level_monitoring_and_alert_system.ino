@@ -7,3 +7,6 @@ LiquidCrystal lcd(7, 6, 5, 4, 3, 2);
 int tankHeight = 30;  // Tank height in cm
 void setup() {
   lcd.begin(16, 2);
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  pinMode(buzzer, OUTPUT);
