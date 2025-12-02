@@ -25,3 +25,6 @@ void loop() {
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
+
+  // Read echo time
+  duration = pulseIn(echoPin, HIGH);
