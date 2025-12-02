@@ -106,3 +106,14 @@ Upload the Arduino code using Arduino IDE.
 Power the system.
 
 Monitor water level on LCD; buzzer alerts at high levels.
+
+
+📷 Screenshots / Output
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/1fd991b8-ccc9-4adb-9d97-b5714d43ea65" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/a90496fc-94b3-468c-af99-7f672db3e302" />
+
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/c9127f4e-ebff-41e5-81ae-c748741af49c" />
+
+
