@@ -38,3 +38,9 @@ void loop() {
   if (waterLevel > tankHeight) waterLevel = tankHeight;
 
   int percent = (waterLevel * 100) / tankHeight;
+
+  // -------- LCD Display --------
+  lcd.setCursor(0, 0);
+  lcd.print("Dist:");
+  lcd.print(distance);
+  lcd.print("cm   ");
