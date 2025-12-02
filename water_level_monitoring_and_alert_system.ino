@@ -18,3 +18,7 @@ void setup()
 void loop() {
   long duration;
   int distance;
+
+  // Create trigger pulse
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
