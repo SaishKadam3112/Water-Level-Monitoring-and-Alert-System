@@ -29,17 +29,17 @@ Power Supply (USB or 5V)
 
 Component	Arduino Pin / Connection
 
-LCD RS	              7
+LCD RS	              12
 
-LCD EN	              6
+LCD EN	              11
 
-LCD D4               	5
+LCD D4               	7
 
-LCD D5	              4
+LCD D5	              6
 
-LCD D6               	3
+LCD D6               	5
 
-LCD D7              	2
+LCD D7              	4
 
 LCD VSS (GND)       	GND
 
@@ -49,11 +49,11 @@ LCD V0 (Contrast)   	Middle pin of potentiometer
 
 Potentiometer ends  	5V & GND
 
-Ultrasonic Trig     	9
+Ultrasonic Trig     	10
 
-Ultrasonic Echo	      10
+Ultrasonic Echo	      2
 
-Buzzer              	11
+Buzzer              	8
 
 🖼 Circuit Diagram
 
