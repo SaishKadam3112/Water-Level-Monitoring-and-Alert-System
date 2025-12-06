@@ -1,13 +1,13 @@
-💧 WATER LEVEL MONITORING AND AND ALERT SYSTEM
+**💧 WATER LEVEL MONITORING AND AND ALERT SYSTEM**
 
-📌 Project Overview :-
+**📌 Project Overview :-**
 
 This project is an Arduino-based Water Level Monitoring and Alert System. It continuously monitors the water level in a tank using an ultrasonic sensor, displays the water level on a 16×2 LCD, and activates a buzzer alert when the tank is almost full.
 A potentiometer is used to adjust the LCD contrast, ensuring the display is clear and readable.
 This system is useful for preventing tank overflow and efficiently managing water usage.
 
 
-🛠 Components Required :-
+**🛠 Components Required :-**
 
 Arduino UNO
 
@@ -26,7 +26,7 @@ Breadboard
 Power Supply (USB or 5V)
 
 
-🔌 Pin Connections :-
+**🔌 Pin Connections :-**
 
 Component	Arduino Pin / Connection
 
@@ -57,34 +57,34 @@ Ultrasonic Echo	      2
 Buzzer              	8
 
 
-🖼 Circuit Diagram :-
+**🖼 Circuit Diagram :-**
 
 <img width="1280" height="890" alt="image" src="https://github.com/user-attachments/assets/44e36b16-ea75-46de-ad50-6ce7f1d3de23" />
 
 
-💻 Code Explanation :-
+**💻 Code Explanation :-**
 
-Ultrasonic Sensor :-
+**Ultrasonic Sensor :-**
 Measures the distance from the sensor to water surface.
 Formula: distance = (duration * 0.0343) / 2
 
-Potentiometer :-
+**Potentiometer :-**
 Adjusts LCD contrast for better visibility.
 Connected to V0 pin of LCD.
 
-Water Level Calculation :-
+**Water Level Calculation :-**
 waterLevel = tankHeight - distance
 Converts distance into percentage of tank capacity.
 
-LCD Display :-
+**LCD Display :-**
 Row 1: Distance from sensor to water.
 Row 2: Water level percentage.
 
-Buzzer Alert :-
+**Buzzer Alert :-**
 Turns ON when water level reaches 90% or more.
 
 
-⚡ Features :-
+**⚡ Features :-**
 
 Real-time water level monitoring
 
@@ -97,7 +97,7 @@ Audible alert for high water level
 Simple and easy-to-understand design
 
 
-🔧 How to Use :-
+**🔧 How to Use :-**
 
 Connect all components as per the pin diagram.
 
@@ -110,7 +110,7 @@ Power the system.
 Monitor water level on LCD; buzzer alerts at high levels.
 
 
-📷 Screenshots / Output :-
+**📷 Screenshots / Output :-**
 
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/1fd991b8-ccc9-4adb-9d97-b5714d43ea65" />
 
